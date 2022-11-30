@@ -19,11 +19,13 @@ Y así sucesivamente hasta que sólo quede una. Mira este ejemplo de un grupo de
       9     1
          0
 
+
 0 mata a 1
 2 mata a 3
 4 mata a 5
 6 mata a 7
 8 mata a 9
+
 
          X
      6      4
@@ -32,9 +34,11 @@ Y así sucesivamente hasta que sólo quede una. Mira este ejemplo de un grupo de
       X     X
          0
 
+
 0 mata a 2
 4 mata a 6
 8 mata a 0
+
 
          X
      X      4
@@ -43,7 +47,9 @@ Y así sucesivamente hasta que sólo quede una. Mira este ejemplo de un grupo de
       X     X
          X
 
+
 4 mata a 8
+
 
          X
      X      4
@@ -51,6 +57,8 @@ Y así sucesivamente hasta que sólo quede una. Mira este ejemplo de un grupo de
    X           X
       X     X
          X
+
+
 La tecnología en el índice 4 es la que ha sobrevivido.
 
 Ahora, para probar que somos capaces de crear un algoritmo que funcione
