@@ -3,17 +3,10 @@
 def buscar(lista):
    if len(lista) == 1: 
     return lista[0] 
-   n = len(lista)//2
-   nuevo = []
-   print(len(lista))
-   print(n)
-   print(lista)
-   for elem in range(n):
-       nuevo.append(lista[elem*2])
-      
+    
+   nuevo = lista[::2]  
    if len(lista) % 2 != 0:
       nuevo.pop(0)
-      nuevo.append(lista[len(lista)-1])
    return buscar(nuevo)
 
 
